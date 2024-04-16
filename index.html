@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>6TINGLE Web Page</title>
     <style>
+      .background-image {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        object-fit: cover;
+      }
+
       body {
         margin: 0;
         padding: 0;
@@ -12,7 +22,7 @@
         justify-content: center;
         align-items: center;
         min-height: 100vh;
-        background-color: #f0f0f0;
+        font-family: Arial, sans-serif;
       }
 
       .circle-container {
@@ -32,6 +42,11 @@
     </style>
   </head>
   <body>
+    <img
+      class="background-image"
+      src="file:///C:/6Tingle/사진/Wallpaper.png"
+      alt="Background Image"
+    />
     <div class="circle-container">
       <div class="circle">
         <img
